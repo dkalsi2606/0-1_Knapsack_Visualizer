@@ -36,4 +36,4 @@ This visualizer demonstrates how dynamic programming builds a table of subproble
 - JavaScript  
 
 ## Author
-Created by Ominous Wind (GitHub username: dkalsi2606)
+Created by Daksh Kalsi (GitHub username: dkalsi2606)
