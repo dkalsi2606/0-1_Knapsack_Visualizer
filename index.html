@@ -22,6 +22,16 @@
     <button id="nextBtn">Next Step</button>
     <button id="playBtn">Play</button>
 
+    <p id="equation" class="equation-box">
+      <strong>Recurrence Relation:</strong><br>
+      dp[i][w] = 
+      <strong>
+        max( value[i-1] + dp[i-1][w - weight[i-1]], dp[i-1][w] )
+      </strong>
+      &nbsp;if (weight[i-1] ≤ w), else&nbsp;
+      <strong>dp[i][w] = dp[i-1][w]</strong>
+    </p>
+
     <table id="dpTable"></table>
     <div id="reason" class="reason-box"></div>
     <div id="result"></div>
